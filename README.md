@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![image](https://www.codewars.com/users/ndrs06/badges/large)
+
 <!--
 **ndrs06/ndrs06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
