@@ -14,7 +14,6 @@
 <img src="https://devicon-website.vercel.app/api/mongodb/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="drawing" width="65"/>  
-
 <img src="https://devicon-website.vercel.app/api/sass/original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="drawing" width="65"/>
@@ -23,8 +22,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" alt="drawing" width="65"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="drawing" width="65"/>  
-
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/git/original.svg" alt="drawing" width="65"/>
