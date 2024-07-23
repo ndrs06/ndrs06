@@ -25,6 +25,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/react/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/sass/original.svg" alt="drawing" width="65"/>
+<img src="https://devicon-website.vercel.app/api/bootstrap/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/express/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="drawing" width="65"/>
