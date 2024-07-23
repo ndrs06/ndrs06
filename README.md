@@ -4,25 +4,7 @@
 ### Education:
  - Completing Codecool Full-Stack Developer Course in August 2024.
 
-### Skills:
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Images</title>
-    <style>
-        .center-div {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px; /* Optional: adds some space between the images */
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <div class="center-div">
+### Skills:  
 <img src="https://devicon-website.vercel.app/api/csharp/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/dotnetcore/original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="drawing" width="65"/>
@@ -31,7 +13,8 @@
 <img src="https://devicon-website.vercel.app/api/express/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/mongodb/original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="drawing" width="65"/>
-<img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="drawing" width="65"/>
+<img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="drawing" width="65"/>  
+
 <img src="https://devicon-website.vercel.app/api/sass/original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="drawing" width="65"/>
@@ -40,7 +23,8 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" alt="drawing" width="65"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="drawing" width="65"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="drawing" width="65"/>  
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="drawing" width="65"/>
 <img src="https://devicon-website.vercel.app/api/git/original.svg" alt="drawing" width="65"/>
@@ -50,7 +34,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="drawing" width="65"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="drawing" width="65"/>
-</div>
 
 ### Projects:
  - https://github.com/ndrs06/SolarWatch
