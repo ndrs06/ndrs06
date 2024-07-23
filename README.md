@@ -1,8 +1,6 @@
 
 ![image](https://www.codewars.com/users/ndrs06/badges/large)
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 <a href="https://www.linkedin.com/in/andras-szikszai/">
 <img src="https://devicon-website.vercel.app/api/linkedin/original.svg" width="42"/>
 </a>
