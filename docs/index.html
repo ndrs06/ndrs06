@@ -5,8 +5,6 @@
   <title>ndrs-cv</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="./styles/style.css">
@@ -25,35 +23,33 @@
     <div class="navbar">
       <a href="https://github.com/ndrs06"><i class="fa fa-github fa-fw"></i></a>
       <a href="https://www.linkedin.com/in/andras-szikszai/"><i class="fa fa-linkedin fa-fw"></i></a>
-      <a href="https://www.facebook.com/andraskaroly.szikszai/"><i class="fa fa-facebook fa-fw"></i></a>
-      <a href="https://www.instagram.com/ndrs_00/"><i class="fa fa-instagram fa-fw"></i></a>
     </div>
 
     <!-- The flexible grid (content) -->
-    <div class="row">
+    <div class="container">
 
       <div class="side">
 
-        <div class="card">
-          <br>
+        <div class="pic-card">
+          <!-- 
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="andras-szikszai" data-version="v1"></div> -->
+
           <img src="./assets/IMG_1797.png" width="250" alt="My SVG" />
         </div>
 
-        <hr>
-
         <div class="card">
-          <br>
-          <p><i class="fa fa-home fa-fw"></i> Hungary, HU</p>
-          <p><i class="fa fa-envelope fa-fw"></i> szaki1006@mail.com</p>
-          <p><i class="fa fa-phone fa-fw"></i> +36/30-###-####</p>
+          <b><p><i class="fa fa-home fa-fw"></i> Hungary, HU</p></b>
+          <b><p><i class="fa fa-envelope fa-fw"></i> szaki1006@mail.com</p></b>
+          <b><p><i class="fa fa-phone fa-fw"></i> +36/30 - ### - ####</p></b>
         </div>
 
-        <hr>
-
         <div class="card">
-          <br>
-          <h3 class=""><b><i class="fa fa-asterisk fa-fw"></i>Technologies</b></h3>
-          <div class="container">
+
+          <span class="card-title">
+            <h2><b><i class="fa fa-asterisk fa-fw"></i>Technologies</b></h2>
+          </span>
+
+          <div class="content-card">
             <img src="https://devicon-website.vercel.app/api/csharp/original.svg" alt="drawing" width="30" />
             <img src="https://devicon-website.vercel.app/api/dotnetcore/original.svg" alt="drawing" width="30" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
@@ -100,85 +96,87 @@
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="drawing"
               width="30" />
           </div>
-          <br>
+
         </div>
 
-        <hr>
 
         <div class="card">
-          <br>
+
           <span>
-            <h3 class=""><b><i class="fa fa-globe fa-fw"></i>Languages</b></h3>
+            <h2 class="card-title"><b><i class="fa fa-globe fa-fw"></i>Languages</b></h2>
           </span>
-          <ul>
-            <li>English</li>
-            <li>Hungarian</li>
-          </ul>
+
+          <div class="content-card">
+            <ul>
+              <li>English</li>
+              <li>Hungarian</li>
+            </ul>
+          </div>
+
         </div>
 
       </div>
 
       <div class="main">
 
-
         <div class="card">
-          <br>
-          <span>
+          
+          <span class="card-title">
             <h2><b><i class="fa fa-suitcase fa-fw"></i>Work Experience</b></h2>
           </span>
-          <h5><b>Sport Manager / Decathlon Miskolc</b></h5>
-          <h6><i class="fa fa-calendar fa-fw"></i>Aug 2017 - Jun 2021
-          </h6>
-          <p>Started in sales, expanded to managing department aspects.</p>
-          <ul>
-            <h6><b>Improved workplace efficiency:</b></p>
-              <ul>
-                <li>reorganized stocking area</li>
-                <li>developed efficient stocking processes</li>
-              </ul>
-              <br>
-              <h6><b>Trainings:</b></h6>
-              <ul>
-                <li>economic forecasting</li>
-                <li>time management</li>
-                <li>assertive communication</li>
-                <li>self-awareness</li>
-                <li>conflict management</li>
-                <li>sustainable development</li>
-              </ul>
-          </ul>
-        </div>
 
-        <hr>
-
-        <div class="card">
-          <br>
-          <h5><b>Trainee / BOSCH RBHM/MOE3-BPS</b></h5>
-          <h6><i class="fa fa-calendar fa-fw"></i>Apr 2014 - May 2017
-          </h6>
-          <p>Focused on manufacturing efficiency using LEAN principles.</p>
-          <ul>
-            <h6><b>Tasks:</b></h6>
+          <div class="content-card">
+            <h3 class="content-title"><b>Sport Manager / Decathlon</b></h3>
+            <h5><i class="fa fa-calendar fa-fw"></i>Aug 2017 - Jun 2021
+            </h5>
+            <p>Started in sales, expanded to managing department aspects.</p>
             <ul>
-              <li>production planning</li>
-              <li>data collection/reporting</li>
+              <h4><b>Improved workplace efficiency:</b></h4>
+                <ul>
+                  <li>reorganized stocking area</li>
+                  <li>developed efficient stocking processes</li>
+                </ul>
+                <br>
+                <h4><b>Trainings:</b></h4>
+                <ul>
+                  <li>economic forecasting</li>
+                  <li>time management</li>
+                  <li>assertive communication</li>
+                  <li>self-awareness</li>
+                  <li>conflict management</li>
+                  <li>sustainable development</li>
+                </ul>
             </ul>
-          </ul>
+          </div>
+
+          <div class="content-card">
+            <h3 class="content-title"><b>Trainee / BOSCH RBHM/MOE3-BPS</b></h3>
+            <h5><i class="fa fa-calendar fa-fw"></i>Apr 2014 - May 2017</h5>
+            
+            <p>Focused on manufacturing efficiency using LEAN principles.</p>
+            <ul>
+              <h4><b>Tasks:</b></h4>
+              <ul>
+                <li>production planning</li>
+                <li>data collection/reporting</li>
+              </ul>
+            </ul>
+          </div>
+
         </div>
 
-
-        <hr>
-
         <div class="card">
-          <br>
-          <span>
-            <h3 class=""><b><i class="fa fa-certificate fa-fw"></i>Education</b></h3>
+
+          <span class="card-title">
+            <h2 class=""><b><i class="fa fa-certificate fa-fw"></i>Education</b></h2>
           </span>
-          <div class="container">
-            <h5 class="opacity"><b>Codecool</b></h5>
-            <h6 class=""><i class="fa fa-calendar fa/fw"></i> Aug 2023 - Aug 2024</h6>
+
+          <div class="content-card">
+            <h3 class="content-title"><b>Codecool</b></h3>
+            <h5><i class="fa fa-calendar fa/fw"></i> Aug 2023 - Aug 2024</h5>
             <p>Web Development! All I need to know in one place</p>
           </div>
+
         </div>
 
       </div>
@@ -187,13 +185,9 @@
 
     <!-- Footer -->
     <div class="footer">
-      <h2></h2>
+      <h2>Footer</h2>
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
   </div>

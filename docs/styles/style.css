@@ -1,5 +1,5 @@
 body {
-  background-color: #333333;
+  background-color: #424242;
   margin: auto;
   max-width: 1200px;
   font-family: "Roboto", sans-serif;
@@ -10,9 +10,8 @@ i {
 }
 
 .header {
-  padding: 60px;
   text-align: center;
-  background: #2d2c2c;
+  background: #424242;
   color: rgb(233, 233, 233);
 }
 
@@ -23,8 +22,9 @@ i {
 }
 
 .navbar a {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
   color: rgb(233, 233, 233);
-  padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
@@ -34,31 +34,39 @@ i {
   color: black;
 }
 
-.row {  
+.container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .side {
+  display: flex;
+  flex-direction: column;
   flex: 30%;
   color: rgb(233, 233, 233);
-  background-color: #424242;
-  padding: 20px;
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   flex: 70%;
-  background-color: #424242;
-  padding: 20px;
 }
 
-.card {
+.card, .pic-card{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   color: #ddd;
   background-color: #333333;
 }
 
+.pic-card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0rem;
+}
+
 .footer {
-  padding: 20px;
   text-align: center;
   background-color: #545454;
 }
