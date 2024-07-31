@@ -1,7 +1,8 @@
 body {
   margin: auto;
   max-width: 1200px;
-  background-color: #2d2c2c;
+  height: 100%;
+  background-color: rgb(30, 30, 30);
 }
 
 i {
@@ -13,6 +14,11 @@ i {
   margin: auto;
   max-width: 1200px;
   font-family: "Roboto", sans-serif;
+
+  border: 0.25rem, solid, rgba(90, 57, 31, 0.18);
+
+  background-image: url(../assets/neon-background.jpg);
+  background-size: cover;  
 }
 
 .header {
@@ -20,12 +26,26 @@ i {
   text-align: center;
   justify-content: center;
   background: #424242;
+
+  border-radius: 0.5rem;
+
+  background: rgba(45, 39, 35, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(90, 57, 31, 0.18);
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
   background-color: #545454;
+
+  border-radius: 0.5rem;
+
+  background: rgba(90, 57, 31, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(90, 57, 31, 0.18);
 }
 
 .navbar a {
@@ -63,9 +83,14 @@ i {
 .card, .pic-card{
   margin: 0.5rem;
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   color: #ddd;
   background-color: #333333;
+
+  background: rgba(90, 57, 31, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(90, 57, 31, 0.18);
 }
 
 .pic-card {
@@ -75,8 +100,17 @@ i {
 }
 
 .footer {
+  display: flex;
   text-align: center;
+  justify-content: center;
   background-color: #545454;
+
+  border-radius: 0.5rem;
+
+  background: rgba(45, 39, 35, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(90, 57, 31, 0.18);
 }
 
 
